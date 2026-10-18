@@ -45,6 +45,8 @@ h1{font-size:clamp(2.45rem,6vw,5.25rem);line-height:1.08;letter-spacing:-.055em;
 .prose ul,.prose ol{padding-left:1.5rem}
 .notice{background:var(--accent-light);border-left:4px solid var(--accent);padding:1rem 1.25rem;border-radius:0 .5rem .5rem 0;margin:1.7rem 0}
 .notice p{margin:0;color:var(--ink)}
+.product-visual{margin-block:0 2rem}
+.product-visual img{display:block;width:100%;height:auto;border-radius:1.25rem}
 .footer{padding:2rem 0 2.5rem;color:var(--muted);font-size:.88rem}
 .footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
 .footer nav{display:flex;gap:1.1rem;flex-wrap:wrap}

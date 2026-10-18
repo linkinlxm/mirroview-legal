@@ -41,7 +41,9 @@ class PageParser(HTMLParser):
         if tag in ("script", "form"):
             self.has_script_or_form = True
         if tag in ("img", "video", "audio", "source", "iframe"):
-            self.embedded_assets.append(attrs.get("src") or attrs.get("srcset") or "")
+            self.embedded_assets.append((tag, attrs))
+            if tag == "img":
+                self.links.append(attrs.get("src", ""))
         if tag == "title":
             self.title = True
         if tag == "h1":
@@ -77,8 +79,14 @@ def main():
             errors.append(f"{name}: missing English or Chinese language marker")
         if not all(other in parser.links for other in PAGES):
             errors.append(f"{name}: main navigation lacks a page")
-        if parser.has_script_or_form or parser.embedded_assets:
-            errors.append(f"{name}: unexpected script, form, or embedded asset")
+        if parser.has_script_or_form:
+            errors.append(f"{name}: unexpected script or form")
+        allowed_images = {"assets/screen-sharing-en.png", "assets/screen-sharing-zh.png"}
+        for tag, attrs in parser.embedded_assets:
+            if name != "index.html" or tag != "img" or attrs.get("src") not in allowed_images:
+                errors.append(f"{name}: unexpected embedded asset")
+            if not attrs.get("alt") or attrs.get("width") != "1920" or attrs.get("height") != "1280":
+                errors.append(f"{name}: image needs alt text and explicit dimensions")
         if "mailto:mirroview@liljackson.org" not in " ".join(parser.links):
             if name in ("privacy.html", "terms.html", "support.html"):
                 errors.append(f"{name}: contact email is missing")
