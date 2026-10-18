@@ -1,0 +1,214 @@
+{
+  "home": {
+    "file": "index.html",
+    "sections": []
+  },
+  "privacy": {
+    "file": "privacy.html",
+    "sections": [
+      {
+        "heading": "privacy.section1.heading",
+        "blocks": [
+          {
+            "tag": "p",
+            "key": "privacy.section1.p1"
+          }
+        ]
+      },
+      {
+        "heading": "privacy.section2.heading",
+        "blocks": [
+          {
+            "tag": "p",
+            "key": "privacy.section2.p1"
+          },
+          {
+            "tag": "p",
+            "key": "privacy.section2.p2"
+          }
+        ]
+      },
+      {
+        "heading": "privacy.section3.heading",
+        "blocks": [
+          {
+            "tag": "ul",
+            "items": [
+              "privacy.section3.list1.item1",
+              "privacy.section3.list1.item2",
+              "privacy.section3.list1.item3",
+              "privacy.section3.list1.item4"
+            ]
+          },
+          {
+            "tag": "p",
+            "key": "privacy.section3.p2"
+          }
+        ]
+      },
+      {
+        "heading": "privacy.section4.heading",
+        "blocks": [
+          {
+            "tag": "p",
+            "key": "privacy.section4.p1"
+          }
+        ]
+      },
+      {
+        "heading": "privacy.section5.heading",
+        "blocks": [
+          {
+            "tag": "p",
+            "key": "privacy.section5.p1"
+          }
+        ]
+      },
+      {
+        "heading": "privacy.section6.heading",
+        "blocks": [
+          {
+            "tag": "p",
+            "key": "privacy.section6.p1"
+          }
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "file": "terms.html",
+    "sections": [
+      {
+        "heading": "terms.section1.heading",
+        "blocks": [
+          {
+            "tag": "p",
+            "key": "terms.section1.p1"
+          },
+          {
+            "tag": "p",
+            "key": "terms.section1.p2"
+          }
+        ]
+      },
+      {
+        "heading": "terms.section2.heading",
+        "blocks": [
+          {
+            "tag": "p",
+            "key": "terms.section2.p1"
+          }
+        ]
+      },
+      {
+        "heading": "terms.section3.heading",
+        "blocks": [
+          {
+            "tag": "p",
+            "key": "terms.section3.p1"
+          }
+        ]
+      },
+      {
+        "heading": "terms.section4.heading",
+        "blocks": [
+          {
+            "tag": "p",
+            "key": "terms.section4.p1"
+          }
+        ]
+      },
+      {
+        "heading": "terms.section5.heading",
+        "blocks": [
+          {
+            "tag": "p",
+            "key": "terms.section5.p1"
+          }
+        ]
+      },
+      {
+        "heading": "terms.section6.heading",
+        "blocks": [
+          {
+            "tag": "p",
+            "key": "terms.section6.p1"
+          }
+        ]
+      }
+    ]
+  },
+  "support": {
+    "file": "support.html",
+    "sections": [
+      {
+        "heading": "support.section1.heading",
+        "blocks": [
+          {
+            "tag": "ol",
+            "items": [
+              "support.section1.list1.item1",
+              "support.section1.list1.item2",
+              "support.section1.list1.item3",
+              "support.section1.list1.item4"
+            ]
+          },
+          {
+            "tag": "p",
+            "key": "support.section1.p2"
+          }
+        ]
+      },
+      {
+        "heading": "support.section2.heading",
+        "blocks": [
+          {
+            "tag": "p",
+            "key": "support.section2.p1"
+          }
+        ]
+      },
+      {
+        "heading": "support.section3.heading",
+        "blocks": [
+          {
+            "tag": "ul",
+            "items": [
+              "support.section3.list1.item1",
+              "support.section3.list1.item2",
+              "support.section3.list1.item3",
+              "support.section3.list1.item4"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "support.section4.heading",
+        "blocks": [
+          {
+            "tag": "ul",
+            "items": [
+              "support.section4.list1.item1",
+              "support.section4.list1.item2",
+              "support.section4.list1.item3",
+              "support.section4.list1.item4"
+            ]
+          },
+          {
+            "tag": "p",
+            "key": "support.section4.p2"
+          }
+        ]
+      },
+      {
+        "heading": "support.section5.heading",
+        "blocks": [
+          {
+            "tag": "p",
+            "key": "support.section5.p1"
+          }
+        ]
+      }
+    ]
+  }
+}

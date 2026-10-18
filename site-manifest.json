@@ -1,0 +1,282 @@
+[
+  {
+    "locale": "en",
+    "page": "home",
+    "path": "index.html",
+    "image": "assets/en/screen-sharing.png",
+    "image_fallback": false
+  },
+  {
+    "locale": "en",
+    "page": "privacy",
+    "path": "privacy.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "en",
+    "page": "terms",
+    "path": "terms.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "en",
+    "page": "support",
+    "path": "support.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "zh-Hans",
+    "page": "home",
+    "path": "zh-Hans/index.html",
+    "image": "assets/zh-Hans/screen-sharing.png",
+    "image_fallback": false
+  },
+  {
+    "locale": "zh-Hans",
+    "page": "privacy",
+    "path": "zh-Hans/privacy.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "zh-Hans",
+    "page": "terms",
+    "path": "zh-Hans/terms.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "zh-Hans",
+    "page": "support",
+    "path": "zh-Hans/support.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "zh-Hant",
+    "page": "home",
+    "path": "zh-Hant/index.html",
+    "image": "assets/zh-Hant/screen-sharing.png",
+    "image_fallback": false
+  },
+  {
+    "locale": "zh-Hant",
+    "page": "privacy",
+    "path": "zh-Hant/privacy.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "zh-Hant",
+    "page": "terms",
+    "path": "zh-Hant/terms.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "zh-Hant",
+    "page": "support",
+    "path": "zh-Hant/support.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "ja",
+    "page": "home",
+    "path": "ja/index.html",
+    "image": "assets/ja/screen-sharing.png",
+    "image_fallback": false
+  },
+  {
+    "locale": "ja",
+    "page": "privacy",
+    "path": "ja/privacy.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "ja",
+    "page": "terms",
+    "path": "ja/terms.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "ja",
+    "page": "support",
+    "path": "ja/support.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "ko",
+    "page": "home",
+    "path": "ko/index.html",
+    "image": "assets/ko/screen-sharing.png",
+    "image_fallback": false
+  },
+  {
+    "locale": "ko",
+    "page": "privacy",
+    "path": "ko/privacy.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "ko",
+    "page": "terms",
+    "path": "ko/terms.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "ko",
+    "page": "support",
+    "path": "ko/support.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "de",
+    "page": "home",
+    "path": "de/index.html",
+    "image": "assets/de/screen-sharing.png",
+    "image_fallback": false
+  },
+  {
+    "locale": "de",
+    "page": "privacy",
+    "path": "de/privacy.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "de",
+    "page": "terms",
+    "path": "de/terms.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "de",
+    "page": "support",
+    "path": "de/support.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "fr",
+    "page": "home",
+    "path": "fr/index.html",
+    "image": "assets/fr/screen-sharing.png",
+    "image_fallback": false
+  },
+  {
+    "locale": "fr",
+    "page": "privacy",
+    "path": "fr/privacy.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "fr",
+    "page": "terms",
+    "path": "fr/terms.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "fr",
+    "page": "support",
+    "path": "fr/support.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "es",
+    "page": "home",
+    "path": "es/index.html",
+    "image": "assets/es/screen-sharing.png",
+    "image_fallback": false
+  },
+  {
+    "locale": "es",
+    "page": "privacy",
+    "path": "es/privacy.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "es",
+    "page": "terms",
+    "path": "es/terms.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "es",
+    "page": "support",
+    "path": "es/support.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "it",
+    "page": "home",
+    "path": "it/index.html",
+    "image": "assets/it/screen-sharing.png",
+    "image_fallback": false
+  },
+  {
+    "locale": "it",
+    "page": "privacy",
+    "path": "it/privacy.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "it",
+    "page": "terms",
+    "path": "it/terms.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "it",
+    "page": "support",
+    "path": "it/support.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "pt-BR",
+    "page": "home",
+    "path": "pt-BR/index.html",
+    "image": "assets/pt-BR/screen-sharing.png",
+    "image_fallback": false
+  },
+  {
+    "locale": "pt-BR",
+    "page": "privacy",
+    "path": "pt-BR/privacy.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "pt-BR",
+    "page": "terms",
+    "path": "pt-BR/terms.html",
+    "image": null,
+    "image_fallback": false
+  },
+  {
+    "locale": "pt-BR",
+    "page": "support",
+    "path": "pt-BR/support.html",
+    "image": null,
+    "image_fallback": false
+  }
+]
