@@ -10,4 +10,4 @@ python3 check_site.py
 
 Keep `CNAME` and `.nojekyll` at the published root. After creating the separate repository and enabling GitHub Pages, configure the DNS record for `mirroview.liljackson.org` to point to that Pages site. DNS and Pages settings are outside this directory.
 
-The current public copy describes same reachable local Wi-Fi and the release WebRTC path. It does not treat development-only direct media, diagnostic logs, or no-access-point experiments as release features. Update both languages when the shipped behavior changes.
+The public copy covers the current iPhone/iPad release (iOS/iPadOS 17+), recommends the same reachable local Wi-Fi for initial sessions, and describes nearby sharing without guaranteeing every router-free or mixed-network setup. Diagnostic export is voluntary and stays local until the user shares it. Update both languages when shipped behavior changes; do not turn source implementation or simulator checks into claims of real-device E2E reliability.
